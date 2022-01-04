@@ -1,0 +1,13 @@
+<html>
+<head>
+<script>
+var n,fact=1,i;
+n=parseInt(window.prompt("enter n value","5"));
+for(i=1;i<=n;i++)
+{
+fact=fact*i;
+}
+document.write("fact is "+fact);
+</script>
+</head>
+</html>

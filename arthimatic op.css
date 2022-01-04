@@ -1,0 +1,18 @@
+<html>
+<head>
+<script>
+var a,b;
+a=parseInt(window.prompt("enter a value","20"));
+b=parseInt(window.prompt("enter b value","20"));
+c=a+b;
+document.write("c is="+c);
+c=a-b;
+document.write("c is="+c);
+c=a*b;
+document.write("c is="+c);
+c=a/b;
+document.write("c is="+c);
+</script>
+</head>
+</html>
+
