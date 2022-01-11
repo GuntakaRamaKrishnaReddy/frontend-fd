@@ -8,22 +8,11 @@ stu_password=document.form_reg.pwd.value;
 document.writeln("Hello"+stu_name);
 document.writeln("<br>");
 document.writeln(stu_password);
-if(stu_name==""||stu_name==null)
-{
-alert("please enter name");
-}
-else
-{
-if(stu_password==""||stu_password==null)
-document.write("welcome<br>");
-document.write(Stu_name);
-}
 </script>
 </head>
 <body>
 <form name="form_reg" action="serveraddress">
 Name:<input type="text" name="name" value="cse"><br>
-
 password:<input type="text" name="pwd" value="123456"> 
 <br>
 <input type="button" value="click here" onclick="readvalues()">
